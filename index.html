@@ -16,7 +16,7 @@
 
     h1 {
       font-size: 3rem;
-      margin-top: 80px;
+      margin-top: 40px;
       color: #ffd700;
       text-shadow: 0 0 12px #ff33cc, 0 0 24px #cc00ff;
       animation: glow 2s ease-in-out infinite alternate;
@@ -28,14 +28,6 @@
       margin-bottom: 20px;
     }
 
-    p {
-      max-width: 700px;
-      margin: 0 auto 40px;
-      font-size: 1.1rem;
-      line-height: 1.6;
-      color: #eee;
-    }
-
     @keyframes glow {
       from {
         text-shadow: 0 0 10px #ff66cc, 0 0 20px #ff99ff;
@@ -45,8 +37,17 @@
       }
     }
 
+    video {
+      margin-top: 40px;
+      width: 80%;
+      max-width: 800px;
+      border: 5px solid #ff00aa;
+      border-radius: 16px;
+      box-shadow: 0 0 20px #ff00ff;
+    }
+
     .donate-section {
-      margin: 40px auto;
+      margin: 50px auto;
       padding: 20px;
     }
 
@@ -80,6 +81,7 @@
       margin-top: 60px;
       font-size: 0.9rem;
       color: #ccc;
+      padding-bottom: 40px;
     }
   </style>
 </head>
@@ -88,14 +90,15 @@
   <h1>✨ THE MAGIC OF TCOIN ✨</h1>
   <h2>Welcome to our official GitHub-powered website.<br>🌎 theteamcoin.com | 💖 Powered by YOU</h2>
 
-  <p>
-    Our mission is simple: <strong>KIDS EAT FREE</strong> 🍚  
-    Every donation helps feed 700+ children and bring THE MAGIC to life through joy, love, and unity.  
-    Thank YOU for supporting the kingdom! 🌈🧚‍♀️
-  </p>
+  <!-- 🎥 Embedded Video Section -->
+  <video controls autoplay muted loop>
+    <source src="SALUT%20VIDEO.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
+  <!-- 💸 Donation Buttons Section -->
   <div class="donate-section">
-    <h2>💫 Make a Magical Donation 💫</h2>
+    <h2>💫 Support THE MAGIC 💫</h2>
     <div class="donate-buttons">
       <a href="https://paypal.me/TheTeamCoin" target="_blank">
         <button class="magic-btn">Donate with PayPal 💸</button>
