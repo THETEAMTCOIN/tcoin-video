@@ -1,103 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>✨ THE MAGIC OF TCOIN ✨</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
-      background: linear-gradient(135deg, #0e1a45, #1f2d5d);
-      color: white;
-      text-align: center;
-      overflow-x: hidden;
-    }
+<!-- PayPal Hosted Button Script -->
+<script src="https://www.paypal.com/sdk/js?client-id=BAAvf4qFDdC4oEqSCtxJqnE4GhshDygxnkj6XHsmMT9QwGAJoiKM7X0ajOqoF8ae2T11maBeaJl7bghBxQ&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
 
-    h1 {
-      font-size: 3rem;
-      margin-top: 80px;
-      color: #ffd700;
-      text-shadow: 0 0 12px #ff9933, 0 0 30px #ffcc00;
-    }
+<!-- PayPal Button Container -->
+<div id="paypal-container-CA6BZLTBH4EHY"></div>
 
-    p {
-      font-size: 1.3rem;
-      margin: 20px auto;
-      max-width: 800px;
-    }
-
-    .link-row {
-      margin-top: 30px;
-      font-size: 1.1rem;
-    }
-
-    .link-row a {
-      text-decoration: none;
-      color: #00e6e6;
-      font-weight: bold;
-    }
-
-    .video-container {
-      margin-top: 40px;
-    }
-
-    video {
-      width: 90%;
-      max-width: 800px;
-      border: 4px solid #ffd700;
-      border-radius: 12px;
-      box-shadow: 0 0 20px #ffcc00;
-    }
-
-    .donate-buttons {
-      margin-top: 40px;
-    }
-
-    .donate-buttons a {
-      display: inline-block;
-      background: #ff1493;
-      color: white;
-      text-decoration: none;
-      padding: 14px 28px;
-      margin: 10px;
-      border-radius: 30px;
-      font-size: 1.2rem;
-      font-weight: bold;
-      box-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4;
-      transition: transform 0.2s ease;
-    }
-
-    .donate-buttons a:hover {
-      transform: scale(1.05);
-      background: #ff69b4;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>✨ THE MAGIC OF TCOIN ✨</h1>
-  <p>Welcome to our official GitHub-powered website. <br>Join our magical journey to transform lives and spread kindness.</p>
-
-  <div class="link-row">
-    🌍 <a href="https://theteamcoin.com" target="_blank">theteamcoin.com</a> |
-    💖 Powered by YOU
-  </div>
-
-  <div class="video-container">
-    <video autoplay muted loop playsinline>
-      <source src="SALUT VIDEO.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
-  <div class="donate-buttons">
-    <a href="https://paypal.me/TheTeamCoin/2.5" target="_blank">🍚 Feed One Child – $2.50</a>
-    <a href="https://paypal.me/TheTeamCoin/10" target="_blank">🍽️ Feed a Family – $10</a>
-    <a href="https://paypal.me/TheTeamCoin/100" target="_blank">🧚 Feed 1 Class – $100</a>
-  </div>
-
-</body>
-</html>
-
+<!-- Render Script -->
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "CA6BZLTBH4EHY",
+  }).render("#paypal-container-CA6BZLTBH4EHY");
+</script>
